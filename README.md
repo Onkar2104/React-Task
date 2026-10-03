@@ -136,9 +136,3 @@ React-Task/
     ├── package.json
     └── vite.config.js
 ```
-
-## Notes
-
-- The frontend stores the current display name in browser `localStorage` for the current client session.
-- Production applications should use secure, server-issued authentication tokens or cookies and validate permissions on the backend.
-- The backend remains the source of truth for authentication and database authorization.
